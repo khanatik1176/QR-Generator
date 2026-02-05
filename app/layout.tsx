@@ -6,8 +6,8 @@ import Providers from '@/components/providers';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Motor Telematics',
-  description: 'Performance Automation for Motor Telematics Team',
+  title: 'QR Generator',
+  description: 'Generate and manage QR codes for your products easily.',
   icons: {
     icon: './favicon.ico',
   },
