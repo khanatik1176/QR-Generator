@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  sales-management-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sales-management-frontend
+    volumes:
+      - ./:/app:cached
+      - /app/node_modules
+    ports:
+      - "4544:4544"
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+    # ensure dev server uses host 0.0.0.0 and port 8081
+    command: npm run dev -- -H 0.0.0.0 -p 4544
