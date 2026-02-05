@@ -105,7 +105,7 @@ export default function ProductQRPage() {
           <div className="space-y-6">
             <Button
               onClick={handleBackToMenu}
-              className="flex items-center gap-2 border border-gray-300 text-gray-700 hover:bg-gray-50"
+              className="flex items-center gap-2 border border-gray-300 text-gray-700 bg-white hover:bg-gray-50"
             >
               ← Back to Menu
             </Button>
@@ -121,7 +121,7 @@ export default function ProductQRPage() {
           <div className="space-y-6">
             <Button
               onClick={handleBackToMenu}
-              className="flex items-center gap-2 border border-gray-300 text-gray-700 hover:bg-gray-50"
+              className="flex items-center gap-2 border border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
             >
               ← Back to Menu
             </Button>

@@ -62,7 +62,7 @@ export default function ProductScanner({ onBack }: ProductScannerProps) {
       <div className="w-full space-y-6">
         <Button
           onClick={onBack}
-          className="flex items-center gap-2 border border-gray-300 text-gray-700 hover:bg-gray-50"
+          className="flex items-center gap-2 border border-gray-300 text-gray-700 bg-white hover:bg-gray-50"
         >
           <ArrowLeft className="h-4 w-4" />
           Back to Menu
